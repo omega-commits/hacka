@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pulse Point — AI Fitness Companion</title>
-  <link rel="stylesheet" href="rough2.css">
+  <link rel="stylesheet" href="rough2.css" >
 </head>
 <body>
 
@@ -22,7 +22,7 @@
 
     <div class="nav-btns">
      <a href="login.html"><button class="login-btn">Login</button></a> 
-      <button class="signup-btn">Join Now</button>
+      <a href="join_community.html"><button class="signup-btn">Join Now</button></a>
     </div>
   </nav>
 
@@ -53,12 +53,26 @@
       <p>Monitor steps, calories, and progress effortlessly through sensors.</p>
     </div>
   </section>
+  <!-- AI CHAT SECTION -->
+<section id="ai-chat" class="ai-chat">
+  <h2>💬 Ask PulsePoint AI</h2>
+  <div class="chat-box" id="chat-box">
+    <div class="ai-message">Hi! I'm your AI Fitness Coach. Ask me anything — workouts, nutrition, recovery, or health tips!</div>
+  </div>
+  <div class="chat-input">
+    <input type="text" id="user-input" placeholder="Type your question..." />
+    <button id="send-btn">Send</button>
+  </div>
+</section>
+  
 
   <!-- FOOTER -->
   <footer>
     <p>© 2025 Pulse Point. Inspired by Cult Sport — Built for Hackathons.</p>
   </footer>
+  <script type="module" src="script.js"></script>
 
-  <script src="script.js"></script>
+  
 </body>
 </html>
+
